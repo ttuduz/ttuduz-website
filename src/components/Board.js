@@ -21,7 +21,7 @@ const Board = () => {
 };
 
 const Container = styled.div`
-  height: 500px;
+  height: calc(100vh - 5rem);
   padding-top: 5rem;
 `
 

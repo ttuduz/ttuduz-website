@@ -1,11 +1,54 @@
 import React from 'react';
+import styled from 'styled-components';
+import AppImg from '../assets/img/phone.png';
 
 const Home = () => {
   return (
-    <div>
-      Home
-    </div>
+    <HomeWrapper>
+      <Title>
+        <SubText>나만의 알람친구</SubText>
+        <TitleText>뚜두즈</TitleText>
+      </Title>
+      <AppSlide>
+        <img src={AppImg} style={{height: '100%', width: '100%'}}/> {/*배경제거버전 요청하기 */}
+      </AppSlide>
+      </HomeWrapper>
   );
 };
+
+const HomeWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #FD9681;
+  height: 100%;
+  color: black;
+`
+
+const AppSlide = styled.div`
+  display: flex;
+  width: 80%;
+  height: 100%;
+`
+
+const Title = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  font-family: 'Jua', sans-serif;
+`
+const SubText = styled.h3`
+  font-size: 3rem;
+  font-weight: 600;
+  margin: 0;
+`
+
+const TitleText = styled.h1`
+  font-size: 6rem;
+  font-weight: 800;
+  margin: 0;
+`
 
 export default Home;
