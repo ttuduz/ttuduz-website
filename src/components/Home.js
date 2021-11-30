@@ -10,7 +10,7 @@ const Home = () => {
         <TitleText>뚜두즈</TitleText>
       </Title>
       <AppSlide>
-        <img src={AppImg} style={{height: '100%', width: '100%'}}/> {/*배경제거버전 요청하기 */}
+        <img src={AppImg} style={{height: '100%', width: '100%'}} alt="앱 이미지"/> {/*배경제거버전 요청하기 */}
       </AppSlide>
       </HomeWrapper>
   );
@@ -23,6 +23,7 @@ const HomeWrapper = styled.div`
   align-items: center;
   background-color: #FD9681;
   height: 100%;
+  width: 100%;
   color: black;
 `
 
