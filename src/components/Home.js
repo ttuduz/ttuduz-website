@@ -30,16 +30,16 @@ const HomeWrapper = styled.div`
 
 const AppSlide = styled.div`
   display: flex;
-  width: 80%;
-  height: 100%;
+  width: 60vw;
 `
 
 const Title = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  position: absolute;
+  width: 40vw;
   font-family: 'Jua', sans-serif;
+  color: white;
 `
 const SubText = styled.h3`
   font-size: 3rem;
@@ -54,9 +54,9 @@ const TitleText = styled.h1`
 `
 
 const Button = styled.button`
-  border: 1px solid white;
+  border: 1.5px solid white;
   border-radius: 10px;
-  background-color: black;
+  background-color: #11ffee00;  /* 완전 투명 */
   color: white;
   height: 3rem;
   width: 8rem;

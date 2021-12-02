@@ -16,7 +16,7 @@ const Toodos = () => {
     <ToodosWrapper>
       <ToodosContainer>
         <Body>
-          <img src={mong} alt="Mong" width="240px"/>
+          <img src={mong} alt="Mong" width="400rem"/>
         </Body>
         <Script>
           <Name>Mong-Mong</Name>
@@ -33,9 +33,6 @@ const Toodos = () => {
         </Script>
       </ToodosContainer>
       <ToodosContainer>
-        <Body>
-          <img src={su} alt="Mong" width="240px"/>
-        </Body>
         <Script>
           <Name>DARSURY</Name>
           <Description>
@@ -49,10 +46,13 @@ const Toodos = () => {
             <img src={itemsu} alt="Itme" height="30px" width="30px"/>
           </Item>
         </Script>
+        <Body>
+          <img src={su} alt="Mong" width="400rem"/>
+        </Body>
       </ToodosContainer>
       <ToodosContainer>
         <Body>
-          <img src={peng} alt="Mong" width="240px"/>
+          <img src={peng} alt="Mong" width="400rem"/>
         </Body>
         <Script>
           <Name>PENG-PENG</Name>
@@ -69,9 +69,6 @@ const Toodos = () => {
         </Script>
       </ToodosContainer>
       <ToodosContainer>
-        <Body>
-          <img src={pan} alt="Mong" width="240px"/>
-        </Body>
         <Script>
           <Name>PANDASEE</Name>
           <Description>
@@ -85,13 +82,16 @@ const Toodos = () => {
             <img src={itempan} alt="Itme" height="30px" width="30px"/>
           </Item>
         </Script>
+        <Body>
+          <img src={pan} alt="Mong" width="400rem"/>
+        </Body>
       </ToodosContainer>
       <ToodosContainer>
         <Body>
-          <img src={kking} alt="Mong" width="240px"/>
+          <img src={kking} alt="Mong" width="400rem"/>
         </Body>
         <Script>
-          <Name>Mong-Mong</Name>
+          <Name>KKING</Name>
           <Description>
             여기저기 놀러다니기 좋아하는 토끼. <br/>
             매일 아침 집을 나가 저녁에 들어올만큼 돌아다니는걸 좋아한다.<br/>
@@ -121,16 +121,17 @@ const ToodosContainer = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
-  height: 50vh;
-  width: 40rem;
+  height: 60vh;
+  width: 70rem;
   border-radius: 10px;
   box-shadow: 12px 12px 2px 1px rgba(255, 133, 120, .5);
-  margin: 5rem;
-  border: 1px solid gray;
+  margin: 3rem;
+  padding: 0;
 `
 const Body = styled.div`
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 15rem;
 `
 
@@ -138,7 +139,7 @@ const Script = styled.div`
   display: flex;
   flex-direction: column;
   color: black;
-  margin-left: 30px;
+  margin: 5rem;
   padding: 1rem 0.5rem;
   width: 20rem;
 `
