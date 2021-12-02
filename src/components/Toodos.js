@@ -14,6 +14,7 @@ import itemsu from '../assets/img/item-su.png';
 const Toodos = () => {
   return (
     <ToodosWrapper>
+      <h1 style={{margin: '5rem'}}>TOODOS</h1>
       <ToodosContainer>
         <Body>
           <img src={mong} alt="Mong" width="400rem"/>
