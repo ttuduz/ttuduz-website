@@ -8,7 +8,7 @@ const Home = () => {
       <Title>
         <SubText>나만의 알람친구</SubText>
         <TitleText>뚜두즈</TitleText>
-        <Button onClick={()=> alert("COMMING SOON")}>DOWNLOAD</Button>
+        <Button onClick={()=> alert("COMMING SOON!")}>DOWNLOAD</Button>
       </Title>
       <AppSlide>
         <img src={AppImg} style={{height: '100%', width: '100%'}} alt="앱 이미지"/> {/*배경제거버전 요청하기 */}
