@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ttuduz-website/static/css/main.bb68aec3.chunk.css",
+    "main.js": "/ttuduz-website/static/js/main.2771547c.chunk.js",
+    "main.js.map": "/ttuduz-website/static/js/main.2771547c.chunk.js.map",
+    "runtime-main.js": "/ttuduz-website/static/js/runtime-main.577d5e3d.js",
+    "runtime-main.js.map": "/ttuduz-website/static/js/runtime-main.577d5e3d.js.map",
+    "static/js/2.906c6baf.chunk.js": "/ttuduz-website/static/js/2.906c6baf.chunk.js",
+    "static/js/2.906c6baf.chunk.js.map": "/ttuduz-website/static/js/2.906c6baf.chunk.js.map",
+    "index.html": "/ttuduz-website/index.html",
+    "static/css/main.bb68aec3.chunk.css.map": "/ttuduz-website/static/css/main.bb68aec3.chunk.css.map",
+    "static/js/2.906c6baf.chunk.js.LICENSE.txt": "/ttuduz-website/static/js/2.906c6baf.chunk.js.LICENSE.txt",
+    "static/media/Logo.481a32c8.png": "/ttuduz-website/static/media/Logo.481a32c8.png",
+    "static/media/body-kking.f544eaf0.png": "/ttuduz-website/static/media/body-kking.f544eaf0.png",
+    "static/media/body-mong.38d9f5b8.png": "/ttuduz-website/static/media/body-mong.38d9f5b8.png",
+    "static/media/body-pan.308ca0ea.png": "/ttuduz-website/static/media/body-pan.308ca0ea.png",
+    "static/media/body-peng.98577239.png": "/ttuduz-website/static/media/body-peng.98577239.png",
+    "static/media/body-su.6f444dc7.png": "/ttuduz-website/static/media/body-su.6f444dc7.png",
+    "static/media/call-screen.08dc314a.png": "/ttuduz-website/static/media/call-screen.08dc314a.png",
+    "static/media/phone.607ed067.png": "/ttuduz-website/static/media/phone.607ed067.png",
+    "static/media/select-screen.415bab8b.png": "/ttuduz-website/static/media/select-screen.415bab8b.png",
+    "static/media/todo-screen.736943be.png": "/ttuduz-website/static/media/todo-screen.736943be.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.577d5e3d.js",
+    "static/js/2.906c6baf.chunk.js",
+    "static/css/main.bb68aec3.chunk.css",
+    "static/js/main.2771547c.chunk.js"
+  ]
+}
